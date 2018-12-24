@@ -4,8 +4,18 @@ import com.shockzeh.serverage.placeholder.supplier.PlaceholderSupplier;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
 import org.bukkit.entity.Player;
 
+/**
+ * The hook implementation for PlaceholderAPI.
+ *
+ * @author Shockzeh
+ * @since 1.0
+ */
 public final class PapiPlaceholderHook extends PlaceholderExpansion {
 
+    /**
+     * The supplier being used to supply results to this
+     * hook.
+     */
     private final PlaceholderSupplier supplier;
 
     public PapiPlaceholderHook(PlaceholderSupplier supplier) {

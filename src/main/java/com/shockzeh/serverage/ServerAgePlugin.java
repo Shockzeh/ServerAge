@@ -7,8 +7,18 @@ import com.shockzeh.serverage.placeholder.supplier.DefaultPlaceholderSupplier;
 import com.shockzeh.serverage.placeholder.supplier.PlaceholderSupplier;
 import org.bukkit.plugin.java.JavaPlugin;
 
+/**
+ * The main class for the ServerAge plugin.
+ *
+ * @author Shockzeh
+ * @since 1.0
+ */
 public final class ServerAgePlugin extends JavaPlugin {
 
+    /**
+     * The global supplier for placeholders, which supplies
+     * results to all placeholder dependencies.
+     */
     private PlaceholderSupplier supplier;
 
     @Override
@@ -55,11 +65,26 @@ public final class ServerAgePlugin extends JavaPlugin {
         this.getLogger().info("Hooked into: " + foundHook.name());
     }
 
+    /**
+     * Retrieves the current supplier for placeholders.
+     *
+     * @return the supplier
+     */
     public PlaceholderSupplier getSupplier() {
         return this.supplier;
     }
 
+    /**
+     * Sets the placeholder supplier providing the given
+     * supplier is not null.
+     *
+     * @param supplier the new supplier
+     */
     public void setSupplier(PlaceholderSupplier supplier) {
+        if (supplier == null) {
+            throw new NullPointerException("Supplier cannot be null");
+        }
+
         this.supplier = supplier;
     }
 }

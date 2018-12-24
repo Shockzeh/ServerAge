@@ -11,7 +11,7 @@
 
     <name>ServerAge</name>
 
-    <description>A placeholder addon to display the age of a server.</description>
+    <description>A placeholder add-on to display the age of a server.</description>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
