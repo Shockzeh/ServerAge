@@ -19,12 +19,20 @@ public final class DefaultPlaceholderSupplier implements PlaceholderSupplier {
 
     @Override
     public String onPlaceholderRequest(String argument) {
-        long timestamp = System.currentTimeMillis();
+        long timestamp;
 
         try {
-            timestamp -= Long.parseLong(argument) * 1000L;
+            timestamp = Long.parseLong(argument) * 1000L;
         } catch (NumberFormatException e) {
             return null;
+        }
+
+        long current = System.currentTimeMillis();
+
+        if (timestamp > current) {
+            timestamp = timestamp - current;
+        } else {
+            timestamp = current - timestamp;
         }
 
         return formatTime(timestamp);
