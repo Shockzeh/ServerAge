@@ -1,0 +1,6 @@
+name: ServerAge
+version: ${project.version}
+description: ${project.description}
+main: com.shockzeh.serverage.ServerAgePlugin
+author: Shockzeh
+softdepend: [PlaceholderAPI, MVdWPlaceholderAPI]
