@@ -1,9 +1,9 @@
-package com.shockzeh.serverage.placeholder.supplier;
+package co.uk.jaycarr.serverage.placeholder.supplier;
 
 /**
  * A default implementation of a {@link PlaceholderSupplier}.
  *
- * @author Shockzeh
+ * @author AsyncJay
  * @since 1.0
  */
 public final class DefaultPlaceholderSupplier implements PlaceholderSupplier {

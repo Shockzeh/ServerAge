@@ -1,6 +1,6 @@
 name: ServerAge
 version: ${project.version}
 description: ${project.description}
-main: com.shockzeh.serverage.ServerAgePlugin
-author: Shockzeh
+main: co.uk.jaycarr.serverage.ServerAgePlugin
+author: AsyncJay
 softdepend: [PlaceholderAPI, MVdWPlaceholderAPI]

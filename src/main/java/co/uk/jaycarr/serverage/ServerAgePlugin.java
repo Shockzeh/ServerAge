@@ -1,17 +1,17 @@
-package com.shockzeh.serverage;
+package co.uk.jaycarr.serverage;
 
-import com.shockzeh.serverage.placeholder.MvdwPlaceholderHook;
-import com.shockzeh.serverage.placeholder.PapiPlaceholderHook;
-import com.shockzeh.serverage.placeholder.PlaceholderHook;
-import com.shockzeh.serverage.placeholder.supplier.DefaultPlaceholderSupplier;
-import com.shockzeh.serverage.placeholder.supplier.PlaceholderSupplier;
+import co.uk.jaycarr.serverage.placeholder.MvdwPlaceholderHook;
+import co.uk.jaycarr.serverage.placeholder.PapiPlaceholderHook;
+import co.uk.jaycarr.serverage.placeholder.PlaceholderHook;
+import co.uk.jaycarr.serverage.placeholder.supplier.DefaultPlaceholderSupplier;
+import co.uk.jaycarr.serverage.placeholder.supplier.PlaceholderSupplier;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
  * The main class for the ServerAge plugin.
  *
- * @author Shockzeh
+ * @author AsyncJay
  * @since 1.0
  */
 public final class ServerAgePlugin extends JavaPlugin {

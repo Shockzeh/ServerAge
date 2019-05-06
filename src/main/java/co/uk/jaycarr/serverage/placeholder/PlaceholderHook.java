@@ -1,10 +1,10 @@
-package com.shockzeh.serverage.placeholder;
+package co.uk.jaycarr.serverage.placeholder;
 
 /**
  * Represents all available placeholder dependency
  * hooks for the plugin.
  *
- * @author Shockzeh
+ * @author AsyncJay
  * @since 1.0
  */
 public enum PlaceholderHook {

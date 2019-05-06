@@ -1,13 +1,13 @@
-package com.shockzeh.serverage.placeholder;
+package co.uk.jaycarr.serverage.placeholder;
 
-import com.shockzeh.serverage.placeholder.supplier.PlaceholderSupplier;
+import co.uk.jaycarr.serverage.placeholder.supplier.PlaceholderSupplier;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
 import org.bukkit.entity.Player;
 
 /**
  * The hook implementation for PlaceholderAPI.
  *
- * @author Shockzeh
+ * @author AsyncJay
  * @since 1.0
  */
 public final class PapiPlaceholderHook extends PlaceholderExpansion {

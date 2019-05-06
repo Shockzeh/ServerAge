@@ -1,15 +1,15 @@
-package com.shockzeh.serverage.placeholder;
+package co.uk.jaycarr.serverage.placeholder;
 
 import be.maximvdw.placeholderapi.PlaceholderAPI;
 import be.maximvdw.placeholderapi.PlaceholderReplaceEvent;
 import be.maximvdw.placeholderapi.PlaceholderReplacer;
-import com.shockzeh.serverage.placeholder.supplier.PlaceholderSupplier;
+import co.uk.jaycarr.serverage.placeholder.supplier.PlaceholderSupplier;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
  * The hook implementation for MVdWPlaceholderAPI.
  *
- * @author Shockzeh
+ * @author AsyncJay
  * @since 1.0
  */
 public final class MvdwPlaceholderHook implements PlaceholderReplacer {

@@ -1,10 +1,10 @@
-package com.shockzeh.serverage.placeholder.supplier;
+package co.uk.jaycarr.serverage.placeholder.supplier;
 
 /**
  * Represents a supplier of results for matching
  * placeholders.
  *
- * @author Shockzeh
+ * @author AsyncJay
  * @since 1.0
  */
 @FunctionalInterface
